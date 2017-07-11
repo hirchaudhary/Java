@@ -1,0 +1,14 @@
+color_comment=0,224,0
+color_doc=204,223,50
+color_keyword=0,208,208
+color_normal=208,208,208
+color_number=255,255,0
+color_string=220,120,220
+eclipse.preferences.version=1
+overriddenByCSS=,color_number,color_normal,color_string,color_comment,color_doc,color_keyword,
+predarkestdark.color_comment=117,113,94
+predarkestdark.color_doc=117,113,94
+predarkestdark.color_keyword=102,204,179
+predarkestdark.color_normal=248,248,242
+predarkestdark.color_number=127,179,71
+predarkestdark.color_string=230,219,116

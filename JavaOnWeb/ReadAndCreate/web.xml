@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <!-- web-app looks like root tag -->
+    <display-name>SimpleServletProject</display-name>
+    <!-- A short name intended to be displayed by GUI tools. -->
+    <servlet>
+    <!-- the <servlet> XML element declares the simpleServlet -->
+        <servlet-name>simpleServlet</servlet-name>
+        <servlet-class>org.codingdojo.tutorial.SimpleServlet</servlet-class>
+        <!-- Java class implements the servlet -->
+    </servlet>
+    <servlet-mapping>
+    <!-- the servlet-mapping specifies the /simpleServlet URL pattern that invokes the servlet in a browser -->
+        <servlet-name>simpleServlet</servlet-name>
+        <url-pattern>/simpleServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- another servlet -->
+    <servlet>
+        <servlet-name>xmlServlet</servlet-name>
+        <servlet-class>org.codingdojo.tutorial.XmlServlet</servlet-class>
+    </servlet>
+        <servlet-mapping>
+        <servlet-name>xmlServlet</servlet-name>
+        <url-pattern>/xmlServletpath</url-pattern>
+    </servlet-mapping>
+
+    <!-- welcome element contains an ordered list of welcome-file elements -->
+    <welcome-file-list>
+        <!-- When the URL request is a directory name, WebLogic Server serves the first file specified in this element. If that file is not found, the server then tries the next file in the list -->
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+</web-app>

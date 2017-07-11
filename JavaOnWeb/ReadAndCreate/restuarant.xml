@@ -1,0 +1,91 @@
+<? xml version="1.0" encoding="UTF-8">
+<restaurant>
+    <breakfastMenu>
+        <item category="entree">
+            <name>Samosa</name>
+            <description>Pastry puffs with potatoes & peas.</description>
+            <price>$3.99</price>
+        </item>
+        <item category="entree">
+            <name>Samosa Chat</name>
+            <description>Samosa, yogurt, garbanzo beans, cilantro, chaat
+masala, fine chopped red onions, & tomatoes.</description>
+            <price>$5.99</price>
+        </item>
+        <item category="entree">
+            <name>Gobi Manchuria</name>
+            <description>Gobi [cauliflower], bell peppers, onions, & carrots,
+tossed in zesty soy sauce.</description>
+            <price>$11.99</price>
+        </item>
+        <item category="liqued">
+            <name>Tea</name>
+            <description>Tea, sugar and milk, hot</description>
+            <price>$1.99</price>
+        </item>
+        <item category="liduid">
+            <name>Coffee</name>
+            <description>Hot or Cold</description>
+            <price>$2.99</price>
+        </item>
+    </breakfast>
+
+
+    <lunchMenu>
+        <item category="entree">
+            <name>Chicken Salad</name>
+            <description>A salad with chicken</description>
+            <price>$10.99</price>
+        </item>
+        <item category="entree">
+            <name>Chicken Sandwich</name>
+            <description>A sandwich with chicken</description>
+            <price>$12.99</price>
+        </item>
+        <item category="entree">
+            <name>Pastrami Sandwich</name>
+            <description>A sandwich made with pastrami</description>
+            <price>$13.99</price>
+        </item>
+        <item category="beverage">
+            <name>Coca-Cola</name>
+            <description>A fizzy cola soda</description>
+            <price>$0.99</price>
+        </item>
+        <item category="beverage">
+            <name>Orange Juice</name>
+            <description>A juice made with oranges</description>
+            <price>$0.99</price>
+        </item>
+    </lunchMenu>
+    <dinnerMenu>
+        <item category="entree">
+            <name>Lamb Curry</name>
+            <description>Spice-infused tomato sauce, ginger, garlic,cumin seeds, & dry fenugreek leaves [Methi].</description>
+            <price>$12.99</price>
+        </item>
+        <item category="entree">
+            <name>Chicken 65 or Paneer 65</name>
+            <description>Spiced-up red-hot yogurt sauce,curry leaves, & green chilies.</description>
+            <price>$12.99</price>
+        </item>
+        <item category="entree">
+            <name>Chicken Curry</name>
+            <description>Onion curry sauce, curry leaves, cumin seeds, red
+pepper powder, & cilantro.
+
+</description>
+            <price>$13.99</price>
+        </item>
+        <item category="drink">
+            <name>Chhas(Butter milk)</name>
+            <description>Butter milk with salt and pepper, cilentro</description>
+            <price>$0.99</price>
+        </item>
+        <item category="drink">
+            <name>Orange Juice</name>
+            <description>A juice made with oranges</description>
+            <price>$0.99</price>
+        </item>
+    </dinnerMenu>
+</restaurant>
