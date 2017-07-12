@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+	<display-name>Random Word</display-name>
+	<description>Random word generator</description>
+	<servlet>
+		<servlet-name>Ind</servlet-name>
+		<servlet-class>com.randomword.controllers.Ind</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Ind</servlet-name>
+		<url-pattern>/Ind</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>RandomWord</servlet-name>
+		<servlet-class>com.randomword.controllers.RandomWord</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RandomWord</servlet-name>
+		<url-pattern>/RandomWord</url-pattern>
+	</servlet-mapping>
+</web-app>
