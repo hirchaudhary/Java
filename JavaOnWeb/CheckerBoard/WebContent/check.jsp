@@ -9,8 +9,18 @@
 <body>
 	<div class="wrapper">
 		<h1>Checkerboard: <%=request.getParameter("width") %> w * <%=request.getParameter("height") %> h</h1>
-		<% int w = Integer.parseInt(request.getParameter("width")); %>
-		<% int h = Integer.parseInt(request.getParameter("height")); %>
+		
+		<% 	int h;
+			int w;
+			if(request.getParameter("height") == null || request.getParameter("width") == null){
+				h = 0;
+				w = 0;
+			} else {
+				h = Integer.parseInt(request.getParameter("height"));
+				w = Integer.parseInt(request.getParameter("width"));
+			}
+		%>
+		
 		<% for(int y=0 ; y<h; y++){ %>
 			<% if(y%2==0) {%>
 				<% for(int x=0 ; x<w; x++) { %>
