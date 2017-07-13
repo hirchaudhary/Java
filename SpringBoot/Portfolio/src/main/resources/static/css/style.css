@@ -1,0 +1,17 @@
+
+body{
+	text-align : center;
+}
+.box{
+	background-color : silver;
+	width: 100px;
+	padding : 20px;
+	height : 100px;
+	display : inline-block;
+}
+.wrapper{
+	width: 500px;
+	padding : 20px;
+	height : auto;
+	display : inline-block;
+}
