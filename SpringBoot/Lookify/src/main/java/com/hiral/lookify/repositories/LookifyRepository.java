@@ -8,5 +8,5 @@ import com.hiral.lookify.models.Songs;
 @Repository
 public interface LookifyRepository extends CrudRepository<Songs, Long>{
 	List<Songs> findByArtistContaining(String artist);
-	List<Songs> findAllByOrderByRatingDesc();
+	List<Songs> findTop10ByOrderByRatingDesc();
 }

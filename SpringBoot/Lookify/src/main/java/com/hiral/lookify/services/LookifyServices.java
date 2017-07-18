@@ -34,6 +34,6 @@ public class LookifyServices {
 	}
 	
 	public List<Songs> findTop10(){
-		 return (List<Songs>) lookifyRepository.findAllByOrderByRatingDesc();
+		 return (List<Songs>) lookifyRepository.findTop10ByOrderByRatingDesc();
 	}
 }

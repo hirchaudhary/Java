@@ -8,7 +8,7 @@
 		<th>Rating</th>
 		<th>Action</th>
 	</tr>
-	<c:forEach items="${songs}" varStatus="loop" var="song" begin="0" end="9">
+	<c:forEach items="${songs}" varStatus="loop" var="song">
     <tr>      
     	<td><c:out value="${song.rating}"/></td>  
         <td><c:out value="${song.name}"/></td>
